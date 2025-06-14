@@ -13,6 +13,10 @@ jobs:
         with:
           tool: zola@0.20.0
       
+      - name: Install radion theme
+        id: theme
+        run: git clone https://github.com/micahkepe/radion themes
+      
       - name: Build site with Zola
         id: build
         run: zola build
