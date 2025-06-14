@@ -1,3 +1,7 @@
+title = "The Orchard"
+description = "A blog on tech and the world."
+generate_feeds = true
+
 # The URL the site will be built for
 base_url = "https://lllly-orchard.github.io"
 
@@ -37,10 +41,6 @@ index_format = "elasticlunr_json"
 
 [extra]
 # Put all your custom variables here
-title = "The Orchard"
-description = "A blog on tech and the world."
-generate_feeds = true
-
 author = "Lilly Emerson"
 github = "https://github.com/lllly-orchard"
 radion_menu = [
@@ -48,6 +48,7 @@ radion_menu = [
     {url = "$BASE_URL/categories", name = "Categories"},
     {url = "$BASE_URL/tags", name = "Tags"},
 ]
+
 radion_title = "The Orchard"
 
 # Nicer codeblocks with copy to clipboard
