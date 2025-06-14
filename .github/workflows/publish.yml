@@ -16,6 +16,11 @@ jobs:
       - name: Install radion theme
         id: theme
         run: git clone https://github.com/micahkepe/radion themes
+
+      - run: |
+          ls .
+          ls themes
+          ls themes/radion
       
       - name: Build site with Zola
         id: build
